@@ -1,0 +1,34 @@
+{
+    "Music": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Aurora"},
+                  "SongTitle": {"S": "Animals"},
+                  "AlbumTitle": {"S": "A Different Kind of Human (Step 2)"},
+                  "SongYear": {"S": "2019"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Marshmallow"},
+                  "SongTitle": {"S": "Alone"},
+                  "AlbumTitle": {"S": "Youtube Song"},
+                  "SongYear": {"S": "2016"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Alan Walker "},
+                  "SongTitle": {"S": "Faded"},
+                  "AlbumTitle": {"S": "Spotify Song"},
+                  "SongYear": {"S": "2016"}
+                }
+            }
+        }
+      ]
+}
